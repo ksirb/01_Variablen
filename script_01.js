@@ -24,7 +24,46 @@
 
 /***** 03 Deklaration + Wertweisung II *****/
 
-let firstName, familyName;
-firstName = prompt("Bitte Vornamen eingeben:");
-familyName = prompt("Bitte Namen eingeben:");
-console.log(firstName + " " + familyName);
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben:");
+// familyName = prompt("Bitte Namen eingeben:");
+// console.log(firstName + " " + familyName);
+
+/* JS ist eine untypisierte Sprache! | untyped */
+
+// let test;
+// test = "Hi";
+// test = 2;
+// test = true;
+
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test); // Ausgabe
+
+/***** 03a Konstanten *****/
+
+// const test = "Hallo";
+// test = "hi"; //KEINE neu Zuweisung zur LZ möglich!!
+// console.log("Inhalt: " + test);
+
+/***** 04 Beispiel - Berechnung *****/
+
+//Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let year;
+
+//Wertzuweisung
+ageJohn = 25;
+ageMark = 30;
+
+year = 2022;
+
+//Berechnung
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+//Ausgabe
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
+
