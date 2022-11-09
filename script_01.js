@@ -24,4 +24,7 @@
 
 /***** 03 Deklaration + Wertweisung II *****/
 
-
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben:");
+familyName = prompt("Bitte Namen eingeben:");
+console.log(firstName + " " + familyName);
