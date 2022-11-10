@@ -47,24 +47,43 @@
 
 /***** 04 Beispiel - Berechnung *****/
 
+// //Deklaration
+// let ageJohn, ageMark;
+// let birthYearJohn, birthYearMark;
+
+// //Wertzuweisung
+// ageJohn = 25;
+// ageMark = 30;
+
+// let date = new Date();
+// let year = date.getFullYear();
+
+// //Berechnung
+// birthYearJohn = year - ageJohn;
+// birthYearMark = year - ageMark;
+
+
+// //Ausgabe
+// console.log(date);
+// console.log("birthYearJohn: " + birthYearJohn);
+// console.log("birthYearMark: " + birthYearMark);
+
+/***** 05 Entscheidungsstrukturen | Control flow *****/
+
+//Deklaration + Assignment
+const ageJohn = 30;
+const ageMark = 30;
+
 //Deklaration
-let ageJohn, ageMark;
-let birthYearJohn, birthYearMark;
+let isJohnOlder, isJohnEqual;
 
-//Wertzuweisung
-ageJohn = 25;
-ageMark = 30;
-
-let date = new Date();
-let year = date.getFullYear();
-
-//Berechnung
-birthYearJohn = year - ageJohn;
-birthYearMark = year - ageMark;
-
+//Test | Logische Aussage
+isJohnOlder = (ageJohn > ageMark);
+isJohnEqual = (ageJohn == ageMark);
 
 //Ausgabe
-console.log(date);
-console.log("birthYearJohn: " + birthYearJohn);
-console.log("birthYearMark: " + birthYearMark);
-
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
+console.log("isJohnOlder: " + isJohnOlder);
+console.log("isJohnEqual: " + isJohnEqual);
+console.log("------------------");
